@@ -1,0 +1,19 @@
+{
+  "name": "iconize-cli",
+  "version": "1.0.0",
+  "description": "cli utility for generating icon components from svg",
+  "bin": {
+    "iconize": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bejoy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "clui": "^0.3.6",
+    "inquirer": "^10.1.6"
+  }
+}
